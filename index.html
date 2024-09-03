@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>O Mistério do Castelo da Névoa</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="biblioteca antiga.jpeg" alt="Imagem de uma biblioteca antiga">
+            <p>Em uma noite fria e enevoada, você recebe uma carta anônima que lhe entrega uma chave e um mapa. A carta fala de um castelo escondido nas montanhas, onde um segredo milenar foi guardado por séculos. Intrigado, você decide investigar e embarca em uma jornada rumo ao desconhecido.</p>
+            <button class="btn-proximo" data-proximo="1">Montanhas da Escócia</button>
+            <button class="btn-proximo" data-proximo="2">Florestas da Transilvânia</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Nas Montanhas da Escócia, a névoa é densa e quase impenetrável. Ao seguir o mapa, você encontra um portão antigo que corresponde à chave que recebeu.</p>
+            <button class="btn-proximo" data-proximo="3">Abrir o portão e entrar</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Nas florestas densas da Transilvânia, você encontra uma pequena cabana. Lá dentro, um homem velho fala sobre o castelo e oferece sua ajuda para guiá-lo até lá.</p>
+            <button class="btn-proximo" data-proximo="5">Aceitar a ajuda do homem</button>
+            <button class="btn-proximo" data-proximo="6">Recusar e seguir sozinho</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Dentro do portão, você se depara com um jardim abandonado e um caminho que leva até o castelo envolto em névoa. Estranhas vozes sussurram ao seu redor.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir em frente para o castelo</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="voltando para minha casa.jpeg" alt="Imagem voltando para casa e desistindo da aventura">
+            <p>Sentindo que a situação é mais perigosa do que imaginava, você decide voltar para casa, mas as vozes da névoa continuam a assombrá-lo.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>Com a ajuda do homem, você chega ao castelo em ruínas, mas percebe que ele guarda segredos sombrios e que o homem pode não ser quem ele diz ser.</p>
+            <button class="btn-proximo" data-proximo="7">Confrontar o homem</button>
+            <button class="btn-proximo" data-proximo="8">Entrar no castelo sozinho</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Ao recusar a ajuda, você se perde na floresta, mas eventualmente encontra uma trilha secreta que leva ao castelo. A entrada parece te observar.</p>
+            <button class="btn-proximo" data-proximo="8">Entrar no castelo</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>Dentro do castelo, a névoa se torna ainda mais densa. Você encontra um salão com espelhos antigos que mostram reflexos estranhos.</p>
+            <button class="btn-proximo" data-proximo="9">Investigar os espelhos</button>
+            <button class="btn-proximo" data-proximo="10">Ignorar e seguir adiante</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>Entrando sozinho no castelo, você encontra uma antiga biblioteca cheia de livros esquecidos. Um deles emite uma luz suave.</p>
+            <button class="btn-proximo" data-proximo="9">Abrir o livro luminoso</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>Ao tocar o espelho (ou abrir o livro), você é transportado para uma outra dimensão, onde o segredo do castelo finalmente é revelado: um portal para uma realidade paralela.</p>
+            <button class="btn-proximo" data-proximo="11">Explorar a nova realidade</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>Ao ignorar os espelhos, você encontra uma porta que leva a uma câmara subterrânea. Lá, um guardião aparece para proteger o segredo do castelo.</p>
+            <button class="btn-proximo" data-proximo="12">Enfrentar o guardião</button>
+            <button class="btn-proximo" data-proximo="9">Fugir e procurar outra saída</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="mundo paralelo.jpeg" alt="Imagem de um mundo paralelo">
+            <p>Nesse novo mundo, você descobre que o castelo é uma ligação entre várias dimensões. Agora, cabe a você decidir o destino do castelo e dos segredos que ele guarda.</p>
+        </div>
+
+        <div class="passo" id="passo-12">
+            <p>Você decide enfrentar o guardião, e após uma batalha intensa, ele reconhece sua coragem e entrega a você a chave para controlar o portal.</p>
+            <button class="btn-proximo" data-proximo="11">Usar a chave e explorar o portal</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
